@@ -1,0 +1,29 @@
+{
+  "name": "web2pdf",
+  "version": "0.0.2",
+  "description": "convert website to pdf",
+  "main": "index.js",
+  "bin": {
+    "web2pdf": "./bin/web2pdf.js"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Himenon/web2pdf.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "clean": "rm -rf node_modules"
+  },
+  "author": "K.Himenon",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
